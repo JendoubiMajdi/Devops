@@ -55,7 +55,7 @@
         </dependency>
     </dependencies>
 
-    <build>
+   <build>
     <plugins>
         <plugin>
             <groupId>org.springframework.boot</groupId>
@@ -80,7 +80,7 @@
         <plugin>
             <groupId>org.sonarsource.scanner.maven</groupId>
             <artifactId>sonar-maven-plugin</artifactId>
-            <version>3.7.0.1746</version> <!-- Use a compatible version -->
+            <version>3.9.1.2184</version> <!-- Ensure this version is compatible with Java 11 -->
         </plugin>
     </plugins>
 </build>
